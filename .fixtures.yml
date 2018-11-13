@@ -6,5 +6,6 @@ fixtures:
     stdlib: "https://github.com/puppetlabs/puppetlabs-stdlib.git"
     firewall: "https://github.com/puppetlabs/puppetlabs-firewall.git"
     concat: "https://github.com/puppetlabs/puppetlabs-concat.git"
+    cron_yumrepo: "https://github.com/puppetlabs/puppetlabs-yumrepo_core.git"
   symlinks:
     postgresql: "#{source_dir}"
